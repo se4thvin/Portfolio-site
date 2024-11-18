@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
     "Junior at the University of Texas At Dallas, majoring in Computer Science. I have a passion for software development and Artifical Inteligence and I am always looking for new opportunities to learn and grow.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me    .png",
   skills: [
     "React",
     "Next.js",
