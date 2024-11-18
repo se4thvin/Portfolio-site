@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Sethvin Nanayakkara",
   initials: "SN",
-  url: "https://dillion.io",
+  url: "https://sethvin.dev",
   location: "Austin, TX",
   locationLink: "https://www.google.com/maps/place/austin+tx",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Aspiring Computer Science Student with a passion for software development and AI. Always looking for new opportunities to learn and grow.",
   summary:
     "Junior at the University of Texas At Dallas, majoring in Computer Science. I have a passion for software development and Artifical Inteligence and I am always looking for new opportunities to learn and grow.",
-  avatarUrl: "/me    .png",
+  avatarUrl: "/me.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -30,12 +30,12 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "nanasethvin@yahoo.com",
+    tel: "+1(512)-591-3935",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://dub.sh/Sethvin-github",
         icon: Icons.github,
 
         navbar: true,
@@ -45,19 +45,6 @@ export const DATA = {
         url: "https://dub.sh/dillion-linkedin",
         icon: Icons.linkedin,
 
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
