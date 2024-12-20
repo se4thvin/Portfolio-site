@@ -66,7 +66,7 @@ export const DATA = {
       title: "College Advisor/Software Engineer Intern",
       logoUrl: "/Apple.png",
       start: "Feb 2023",
-      end: "Present",
+      end: "Dec 2024",
       description:
         "I'm immersed in an environment fostering innovation and personal growth at one of the tech world's frontrunners. In this multifaceted remote role, I balance academic commitments while excelling in customer service and technical support for Apple users. Beyond troubleshooting, I'm actively enhancing my skills in computer science, AI, and cybersecurity, contributing to cutting-edge projects that shape the future of technology.",
     },
