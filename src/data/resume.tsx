@@ -130,6 +130,7 @@ export const DATA = {
       title: "Stock Predictor",
       href: "https://stock-prediction-z3na7gm9kcjwcxkaazaqyq.streamlit.app",
       active: true,
+      dates: "2024",
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
@@ -152,6 +153,7 @@ export const DATA = {
       title: "Dynamic Solfége Detection",
       href: "https://github.com/se4thvin/Dynamic-Solfege-Detection",
       active: true,
+      dates: "2024",
       description:
         "This project implements a hand gesture recognition system for detecting solfege syllables (do, re, mi, fa, sol, la, ti, do). It uses a deep learning approach with MediaPipe for hand landmark detection and TensorFlow for gesture classification. By leveraging hand landmarks rather than raw pixel data, this system achieves efficient and accurate gesture recognition with minimal training data.",
       technologies: [
@@ -174,6 +176,7 @@ export const DATA = {
       title: "Spotify top 1000 songs data visiualizer",
       href: "https://github.com/se4thvin/Python-Data-Visualizer",
       active: true,
+      dates: "2024",
       description:
         "Takes in a dataset and display visually using matplotlib, pandas, or other graphical plotting library.",
       technologies: [
@@ -195,8 +198,8 @@ export const DATA = {
     {
       title: "Portfolio Site",
       href: "https://sethvin.dev",
-      dates: "April 2023 - March 2024",
       active: true,
+      dates: "2025",
       description:
         "My react based portfolio",
       technologies: [

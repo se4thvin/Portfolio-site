@@ -1,7 +1,7 @@
 {
   "name": "porfolio",
   "version": "0.1.0",
-  "homepage": "https://sethvin.dev/Portfolio-site",
+  "homepage": "https://sethvin.dev/Portfolio-site/src/app/data/resume.tsx",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
