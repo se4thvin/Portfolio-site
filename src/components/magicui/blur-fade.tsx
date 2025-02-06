@@ -2,7 +2,16 @@
 
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
 import { useRef } from "react";
+import { CharsElement } from "rehype-pretty-code";
 
+
+type MarginValue = `${number}${'px' | '%'}`;
+type MarginType = MarginValue | `${MarginValue} ${MarginValue}` | `${MarginValue} ${MarginValue} ${MarginValue}` | `${MarginValue} ${MarginValue} ${MarginValue} ${MarginValue}`;
+interface InViewOptions {
+    root?: Element | Document;
+    margin?: MarginType;
+    amount?: "some" | "all" | number;
+}
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
@@ -14,7 +23,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  inViewMargin?: MarginType ;
   blur?: string;
 }
 const BlurFade = ({
