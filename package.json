@@ -1,13 +1,13 @@
 {
   "name": "porfolio",
   "version": "0.1.0",
-  "homepage": "https://sethvin.dev/Portfolio-site/src/app/data/resume.tsx",
+  "homepage": "https://sethvin.dev/Portfolio-site/src/app/page",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d out",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build", 
     "start": "next start",
     "lint": "next lint"
   },
