@@ -129,7 +129,6 @@ export const DATA = {
     {
       title: "Stock Predictor",
       href: "https://stock-prediction-z3na7gm9kcjwcxkaazaqyq.streamlit.app",
-      dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
@@ -145,36 +144,26 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/stockPredPic.png",
       video:
         "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Dynamic Solfége Detection",
+      href: "https://github.com/se4thvin/Dynamic-Solfege-Detection",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "This project implements a hand gesture recognition system for detecting solfege syllables (do, re, mi, fa, sol, la, ti, do). It uses a deep learning approach with MediaPipe for hand landmark detection and TensorFlow for gesture classification. By leveraging hand landmarks rather than raw pixel data, this system achieves efficient and accurate gesture recognition with minimal training data.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "OpenCV",
+        "PyTorch",
+        "Google MediaPipe",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/se4thvin/Dynamic-Solfege-Detection",
           icon: <Icons.github className="size-3" />,
         },
       ],
