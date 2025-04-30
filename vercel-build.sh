@@ -9,9 +9,9 @@ echo "Current directory structure:"
 ls -la
 echo "------------------------------"
 
-# Make sure tailwindcss typography is installed
+# Make sure required dependencies are installed
 echo "Installing dependencies..."
-npm install --save-dev @tailwindcss/typography
+npm install --save-dev autoprefixer @tailwindcss/typography
 
 # Show the working directory
 echo "Working directory: $(pwd)"
@@ -21,6 +21,10 @@ ls -la
 # Confirm Next.js config file
 echo "Next.js config file:"
 cat next.config.js
+
+# Confirm PostCSS config
+echo "PostCSS config file:"
+cat postcss.config.js
 
 # Run debug script
 echo "Running debug script..."

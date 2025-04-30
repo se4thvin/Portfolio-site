@@ -1,7 +1,7 @@
 {
   "buildCommand": "next build",
   "devCommand": "next dev",
-  "installCommand": "npm install --ignore-scripts && npm install --no-save @tailwindcss/typography",
+  "installCommand": "npm install --ignore-scripts && npm install --no-save autoprefixer @tailwindcss/typography",
   "framework": "nextjs",
   "outputDirectory": ".next"
 } 
