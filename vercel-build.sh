@@ -15,8 +15,8 @@ npm install --save-dev @tailwindcss/typography
 
 # Show the working directory
 echo "Working directory: $(pwd)"
-echo "Contents of src/app:"
-ls -la src/app
+echo "Contents of root directory:"
+ls -la
 
 # Run debug script
 echo "Running debug script..."
