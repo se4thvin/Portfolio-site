@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "vercel-build": "bash ./vercel-build.sh",
+    "vercel-build": "bash ./build.sh",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
