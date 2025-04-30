@@ -3,6 +3,9 @@ const path = require('path');
 
 const nextConfig = {
   swcMinify: true,
+  experimental: {
+    appDir: true
+  },
   webpack: (config) => {
     config.resolve.alias['@'] = path.resolve(__dirname, 'src');
     return config;
