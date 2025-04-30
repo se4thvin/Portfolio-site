@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install --ignore-scripts && npm install --no-save @tailwindcss/typography",
   "framework": "nextjs",
   "outputDirectory": ".next"
 } 

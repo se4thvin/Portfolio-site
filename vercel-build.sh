@@ -18,6 +18,10 @@ echo "Working directory: $(pwd)"
 echo "Contents of root directory:"
 ls -la
 
+# Confirm Next.js config file
+echo "Next.js config file:"
+cat next.config.js
+
 # Run debug script
 echo "Running debug script..."
 node debug-build.js
