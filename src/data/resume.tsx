@@ -59,6 +59,18 @@ export const DATA = {
 
   work: [
     {
+      company: "CourseBite.ai",
+      badges: [],
+      href: "https://coursebite.ai",
+      location: "Dallas, TX",
+      title: "Cheif Technology Officer",
+      logoUrl: "/courseBite.svg",
+      start: "December 2023",
+      end: "Present",
+      description:
+        "I developed a full-stack bug reporting system, designed and implemented animations and responsive landing pages, and created modular, reusable React components for the web app. Leveraging tools like Framer Motion, TypeScript, and Next.js, I ensured seamless UI/UX experiences. With plans to lead the iOS development team, I aim to bridge web and mobile platforms, aligning technical architecture and design consistency across Swift, SwiftUI, and React Native technologies.",
+    },
+    {
       company: "Apple",
       href: "https://www.apple.com",
       badges: [],
@@ -69,18 +81,6 @@ export const DATA = {
       end: "Dec 2024",
       description:
         "I'm immersed in an environment fostering innovation and personal growth at one of the tech world's frontrunners. In this multifaceted remote role, I balance academic commitments while excelling in customer service and technical support for Apple users. Beyond troubleshooting, I'm actively enhancing my skills in computer science, AI, and cybersecurity, contributing to cutting-edge projects that shape the future of technology.",
-    },
-    {
-      company: "CourseBite.ai",
-      badges: [],
-      href: "https://coursebite.ai",
-      location: "Dallas, TX",
-      title: "Full Stack Engineer",
-      logoUrl: "/courseBite.svg",
-      start: "December 2023",
-      end: "Present",
-      description:
-        "I developed a full-stack bug reporting system, designed and implemented animations and responsive landing pages, and created modular, reusable React components for the web app. Leveraging tools like Framer Motion, TypeScript, and Next.js, I ensured seamless UI/UX experiences. With plans to lead the iOS development team, I aim to bridge web and mobile platforms, aligning technical architecture and design consistency across Swift, SwiftUI, and React Native technologies.",
     },
     {
       company: "Vintage IT",
