@@ -13,14 +13,16 @@ echo "------------------------------"
 echo "Installing dependencies..."
 npm install --save-dev @tailwindcss/typography
 
-# Show the working directory
+# Show the working directory and key directories
 echo "Working directory: $(pwd)"
 echo "Contents of src/app:"
 ls -la src/app
+echo "Contents of root directory:"
+ls -la
+echo "Contents of .next directory (if it exists):"
+ls -la .next 2>/dev/null || echo ".next directory not found yet - it will be created during build"
+echo "Note: .next directory and its contents will be generated during 'next build' command"
 
-# Run debug script
-echo "Running debug script..."
-node debug-build.js
 
 # Build the application
 echo "Building application..."
