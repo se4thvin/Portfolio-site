@@ -132,7 +132,7 @@ export const DATA = {
       active: true,
       dates: "2024",
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a stock price prediction algorithm using machine learning, leveraging a Random Forest model enhanced with technical indicators to improve accuracy.",
       technologies: [
         "Python",
         "Jupyter Notebook",
