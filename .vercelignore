@@ -1,0 +1,7 @@
+.git
+node_modules
+.next
+build
+.vercel
+README.md
+.DS_Store
