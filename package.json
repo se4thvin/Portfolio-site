@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "homepage": "https://sethvin.dev/",
   "private": true,
+  "engines": {
+    "node": "18.x || 20.x"
+  },
   "scripts": {
     "predeploy": "npm run build",
-    "vercel-build": "bash ./vercel-build.sh",
     "dev": "next dev",
-    "build": "next build", 
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
